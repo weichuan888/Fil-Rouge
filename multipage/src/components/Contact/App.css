@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: red;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* formulaire */
+
+.inputname{
+border-radius: 1px;
+width: 355px;
+height: 40px;
+margin-left: 15px;
+}
+
+.inputprenom{
+  border-radius: 1px;
+  width: 355px;
+  height: 40px;
+  margin-left: 15px
+}
+
+.inputsuject{
+  border-radius: 1px;
+  width: 355px;
+  height: 40px;
+  margin-left: 15px
+}
+.bouton{
+  border-bottom: 1px;
+  border-color: orange bold;
+  width: 210px;
+  height: 30px;
+  background-color: orange;
+  margin-left: 85px;
+  color: white;
+}
+
+
+textarea{
+  margin-left: 15px;
+}
+
+:placeholder{
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 22px;
+  color: green;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: green;
+}
+
+.box{
+  background-color: lightgreen;
+  width: 400px;
+  height: 700px;
+  margin: auto;
+}
+
+
+/* bar de navigation */
+ul{
+  background-color: white;
+  list-style-type: none;
+  margin : 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a{
+  display: block;
+  width: 50px;
+}
+
+.textarea{
+  max-width: 87%;
+  margin-left: 18px;
+  height: 331px;
+}

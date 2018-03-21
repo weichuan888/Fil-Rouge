@@ -1,0 +1,144 @@
+.dents{
+    border: 0;
+    height: auto;
+    max-width: 69%;
+    @media screen and (max-width: 800px){
+      max-width: 100%;
+    }
+}
+
+
+
+
+
+.gameScreen{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+.gameWrapper{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    background-color: #F2C94C;
+}
+.gameTitle{
+    color: white;
+    font-size: 49px;
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    @media screen and (max-width: 1280px){font-size: 33px;}
+    @media screen and (max-width: 680px){font-size: 22px;}
+    @media screen and (max-width: 380px){font-size: 18px;}
+  }
+
+
+.hoverit{
+  background-color:#F2994A;
+  width: 33%;
+  height: 17%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  position:absolute;
+}
+.play{
+  border: 0;
+  width: auto;
+  max-height: 56%;
+  margin-left: 30px;
+  @media screen and (max-width: 600px){display:none;}
+}
+
+
+
+
+
+
+
+
+.playText{
+    margin-left: 27px;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    @media screen and (max-width: 1280px){font-size: 55px;}
+
+
+    @media screen and (max-width: 1100px){font-size: 44px;}
+
+
+    @media screen and (max-width: 800px){font-size: 33px;}
+
+
+    @media screen and (max-width: 600px){font-size: 22px;}
+
+
+    @media screen and (max-width: 450px){font-size: 18px;}
+}
+
+
+
+.imageWrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  position:relative;
+}
+
+
+.stores{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding-left: 15.5%;
+  padding-right: 15.5%;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+
+.google{
+  max-width:33%;
+  height:auto;
+}
+
+
+
+.apple{
+  max-width:33%;
+  height:auto;
+}
+
+@media screen and (max-width: 1280px){
+  .gameTitle{
+      font-size: 33px;
+    }
+    .playText{
+      font-size:33px;
+    }
+}
+@media screen and (max-width: 680px){
+  .gameTitle{
+      font-size: 22px;
+    }
+    .playText{
+      font-size:22px;
+    }
+  .play{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .gameTitle{
+      font-size: 18px;
+  }
+  .playText{
+    display: none;
+  }
+}
